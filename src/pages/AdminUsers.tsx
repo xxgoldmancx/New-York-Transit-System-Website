@@ -24,7 +24,7 @@ export function AdminUsers() {
   const queryClient = useQueryClient();
   const { data: me } = useGetMe();
 
-  const { data: users, isLoading } = useQuery<AdminUser[]>({'
+  const { data: users, isLoading } = useQuery<AdminUser[]>({
     queryKey: ["/api/admin/users"],
     queryFn: async () => {
       const res = await fetch("/api/admin/users");
