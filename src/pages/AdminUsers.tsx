@@ -1,7 +1,7 @@
 const useGetMe = () => ({ data: null });
 import { useState, useEffect } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { Shield, ShieldAlert, Key, Loader2, Mail, Github, MessageSquare } from "lucide-react";
+import { Shield, ShieldAlert, Key, Loader2, Mail, GithubIcon, MessageSquare } from "lucide-react";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
